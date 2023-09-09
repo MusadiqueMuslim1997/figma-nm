@@ -1,0 +1,655 @@
+*{
+    margin: 0px;
+}
+.header{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+.logo{
+    width: 10%;
+    display: flex;
+}
+.home{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+.bar{
+    width: 5%;
+    display: none;
+}
+.logofi{
+    width: 80px;
+    position: relative;
+    left: 20px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+
+
+}
+.button{
+    width: 120px;
+    height: 30px;
+    background-color: 
+    #75BF7A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+
+}
+li:hover{
+    background-color: #75BF7A;
+    color: white;
+}
+.button:hover{
+    background-color: #4ecc56;
+}
+@media screen and (max-width:750px)
+{
+    .herosection{
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:750px)
+{
+    .home{
+        display: none;
+    }
+}
+@media screen and (max-width:750px)
+{
+.bar{
+    display: block;
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+}
+}
+.herosection{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+
+}
+.content{
+    width: 40%;
+    height: 300px;
+    background-color: white;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    top:120px;
+    
+    color: black;
+}
+.car{
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    top:20px;
+    
+   
+}
+.p1{
+    color: slategray;
+}
+.car1{
+    width: 100%;
+    height: 400px;
+}
+.black{
+    width: 100%;
+    height: 30px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.blackbtn{
+    width: 120px;
+    height: 30px;
+    background-color: #312f2f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+    
+}
+.blackbtn:hover{
+    background-color: black;
+    color: #4ecc56;
+    cursor: pointer;
+}
+@media screen and (max-width:750px)
+{
+    .herosection{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:750px)
+{
+    .content{
+     width: 90%;
+     
+     display: flex;
+     text-align: center;
+    
+     
+     flex-direction: column;
+       
+       
+        
+    }
+    
+    .car{
+        width: 90%;
+        height: 400px;
+        justify-content: center;
+       
+    }
+    .car1{
+       width: 100%;
+        height: 300px;
+        
+    }
+    .head1{
+        font-size: 20px;
+        
+    }
+    .p1{
+        font-size:15PX;
+        
+    }
+}
+.apply{
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    width: 90%;
+    height: 120px;
+    background-color: #75BF7A;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+}
+.lin{
+    width: 25%;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.search{
+    width: 55%;
+    height: 50px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.inp{
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline-color: azure;
+}
+.appbtn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+.appbtn:hover{
+
+    color: #75BF7A;
+}
+.white{
+    color: white;
+}
+@media screen and (max-width:750px)
+{
+    .apply{
+        width: 100%;
+        height: 600px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green{
+        width: 90%;
+        height: 200px;
+        background-color: #75BF7A;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+
+        align-items: center;
+       
+    }
+    .lin{
+        width: 90%;
+        height: 50px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .search{
+        width: 90%;
+        
+       
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+       
+        justify-content: center;
+        
+    }
+    
+    .inp{
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        outline-color: azure;
+    }
+    .appbtn{
+        width: 100px;
+        height: 30px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        top: 20px;
+        font-size: 10px;
+        
+    }
+    
+}
+.contentmain{
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content2{
+    width: 40%;
+    height: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.greent{
+    color: #75BF7A;
+    
+}
+.silver{
+    color: slategrey;
+}@media screen and (max-width:750px)
+{
+    .contentmain{
+        width: 100%;
+        
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+.ride{
+    width: 100%;
+    height: 600px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2%;
+}
+.ride1{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 28%;
+    height: 400px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+   
+    
+    
+}
+
+.ridea{
+    
+    width: 90%;
+    height: 200px;
+   
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+    
+    
+}
+.silver2{
+    display: flex;
+    text-align: right;
+    color: slategray;
+}
+.rideb{
+    width: 90%;
+    height: 200px;
+    
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+    
+    
+}
+.silver3{
+    display: flex;
+    text-align: left;
+    color: slategray;
+}
+.mh{
+    display: flex;
+    text-align: right;
+}
+
+
+.c{
+   width: 30px;
+   
+  
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background-color: #75BF7A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mob1{
+    width: 200px;
+    height: 400px;
+}
+
+@media screen and (max-width:750px)
+{
+  
+    .ride{
+        width: 90%;
+        height: 800px;
+       
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+    .circle{
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+    .mob1{
+        width: 60px;
+        height: 120px;
+    }
+    .ride1{
+        box-shadow: none;
+        width: 28%;
+        height:600px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        line-height:10px;
+        
+        
+        
+    }
+    .mh{
+        font-size:10px;
+    }
+    .silver1{
+        font-size: 12px;
+    }
+    .silver2{
+        font-size: 12px;
+    }
+    .ridea{
+        width: 28%;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        line-height: 10px;
+        
+        
+        
+    }
+    .rideb{
+        width: 28%;
+        height: 400px;
+        background-color: white;
+        display: flex;
+      
+        flex-direction: column;
+        text-align: left;
+        
+        
+        
+    }
+    .silver3{
+        font-size: 12px;
+        text-align: left;
+    }
+    
+
+}
+.contentmain2{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benif{
+    width: 100%;
+    height: 250px;
+    
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.benif1{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 80%;
+    height: 200px;
+    
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.benchild{
+    width: 45%;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+.frm{
+    width: 180px;
+    height: 180px;
+}
+.benchild1{
+    width: 45%;
+    height: 200px;
+   
+    display: flex;
+   
+    align-self: center;
+    justify-content: right;
+}
+.silver4{
+    color: slategrey;
+}
+.benchild4{
+    width: 45%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benchild5{
+    width: 45%;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+.frm1{
+    width: 180px;
+    height: 180px;
+}
+@media screen and (max-width:750px)
+{
+    .benif{
+        width: 100%;
+        height: 400px;
+        
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .benif1{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        width:90%;
+        height:300px;
+        gap: 3%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .benchild{
+        width: 40%;
+        height: 200px;
+        
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+
+    }
+    .benchild1{
+        width: 40%;
+        height: 200px;
+       
+        display: flex;
+       
+        align-self: center;
+        justify-content: center;
+    }
+    .frm{
+        width: 180px;
+        height: 180px;
+    }
+    .silver4{
+        color: slategray;
+        font-size: 12px;
+    }
+    .benchild4{
+        width: 40%;
+        height: 200px;
+       
+        display: flex;
+       
+        align-self: center;
+        justify-content: center;
+    }
+    .frm1{
+        width: 120px;
+        height: 120px;
+    }
+}
+
